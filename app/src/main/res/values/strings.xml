@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PiiGo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Suivant</string>
+    <string name="search">Recherche</string>
+    <string name="go_back">Retour</string>
+    <string name="go_next">Suivant</string>
+    <string name="search_results">Recherches - Résultats</string>
+    <string name="search_verb">Rechercher</string>
+    <string name="where_are_you">Vous vous trouvez?</string>
+    <string name="you_are">Vous êtes?</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="create_account">Créer mon compte</string>
+    <string name="search_on_going">Recherche en cours...</string>
+    <string name="settings">Settings</string>
+    <string name="settings_french">Paramètres</string>
+    <string name="off_text">Off</string>
+    <string name="on_text">On</string>
+    <string name="reserve">Réserver</string>
+    <string name="plaque_number">Numéro de Plaque</string>
+    <string name="eight_digits">--------</string>
+    <string name="change_number">Changer de numéro</string>
+    <string name="automatic_position">Position automatique</string>
+</resources>

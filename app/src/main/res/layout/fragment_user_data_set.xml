@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.UserDataSetFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:text="Veuillez ajouter une photo de vous et de votre véhuicule"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_data_set_photo_image_view"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@mipmap/ic_user_data_img"/>
+            <ImageView
+                android:id="@+id/user_data_set_photo_choose_image_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|right"
+                android:src="@drawable/ic_photo_camera_black_24dp"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/plaque_number"/>
+
+        <EditText
+            android:id="@+id/user_data_set_piigo_identifier_edit_text"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:layout_height="wrap_content"
+            android:text="TG "/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/user_data_set_piigo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="10sp"
+        android:textColor="#FFF"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:background="@drawable/default_button_rounded_green"
+        android:text="@string/app_name"/>
+
+
+
+
+</FrameLayout>

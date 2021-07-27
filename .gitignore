@@ -4,6 +4,9 @@
 *.ap_
 *.aab
 
+#zip_file
+*.zip
+
 # Files for the ART/Dalvik VM
 *.dex
 
@@ -83,3 +86,20 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
